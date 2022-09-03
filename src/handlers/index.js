@@ -1,0 +1,21 @@
+// prettier-ignore
+module.exports = {
+    handleStart             : require('./start'),
+    handlePhoto             : require('./photo'),
+    handleDocument          : require('./document'),
+    handleSettings          : require('./settings'),
+    handleHistory           : require('./history'),
+    handleHistoryElement    : require('./historyElement'),
+    handleToSticker         : require('./toSticker'),
+    handleService           : require('./service'),
+    handleLanguage          : require('./language'),
+    handleText              : require('./text'),
+    handleReset             : require('./reset'),
+    handleNotImplemented    : require('./notImplemented'),
+    handleFileId            : require('./fileId'),
+    handleStatistics        : require('./admin/statistics'),
+    handleBeta              : require('./admin/beta'),
+    handleCheck             : require('./admin/check'),
+    handleBack              : require('./back'),
+    handleCallback          : require('./callback'),
+};
